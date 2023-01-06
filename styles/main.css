@@ -98,10 +98,15 @@ main{
 /* positive thinking exercise */
 .positive-thinking-exercise{
     margin-top: 30px;
+    border: 2px solid #FD6E0A;
 }
 .positive-thinking-exercise h1{
     margin: 0 auto;
-    padding: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.positive-thinking-table{
+    margin-bottom: 30px;
 }
 table{
     margin: 0 auto;
