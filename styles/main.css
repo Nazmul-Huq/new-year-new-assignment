@@ -42,10 +42,14 @@
     margin: 20px 0px 20px 0px;
 }
 
+/* main styles */
+main{
+    padding: 100px;
+}
+
 /* my failure section */
 .my-failure{
     display: flex;
-    padding: 100px;
 }
 .my-failure-content{
     margin-top: 150px;
@@ -55,6 +59,23 @@
 }
 .my-failure-desc{
     padding: 20px 0px 20px 0px;
+}
+
+/* my plan section styles */
+.my-plan{
+ margin: 50px 0px 50px 0px;
+ text-align: center;
+}
+.my-plan h1{
+    padding: 20px 0px 30px 0px;
+}
+.my-plan-content{
+    display: flex;
+    justify-content: space-between;
+}
+.title-div{
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;
 }
 
 /* footer styles */
