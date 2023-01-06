@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.brown-btn{
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    font-size: large;
+}
+
+.white-btn{
+    background-color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #FD6E0A;
+    font-size: large;
+}
+
+
+/* header styles */
+.header{
+    display: flex;
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 100px;
+
+}
+.no-content{
+    width: 60%;
+}
+.header-content{
+    width: 40%;
+    text-align: right;
+}
+.header-desc{
+    margin: 20px 0px 20px 0px;
+}
+
+/* my failure section */
+.my-failure{
+    display: flex;
+    padding: 100px;
+}
+ul{
+    list-style-image: url(../images/icons/list-style.png);
+}
+
+/* footer styles */
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 100px;
+    display: flex;
+}
+.future{
+    padding-right: 150px;
+}
+footer p{
+    padding: 10px 0px 10px 0px;
+}
+.future img{
+    padding-right: 10px;
+}
+.subscribe-form input[type="email"]{
+    border-radius: 5px;
+    background-color: #000;
+    padding: 10px 10px;
+    border: 1px solid #fff;
+}
