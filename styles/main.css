@@ -47,8 +47,14 @@
     display: flex;
     padding: 100px;
 }
-ul{
+.my-failure-content{
+    margin-top: 150px;
+}
+.my-failure ul{
     list-style-image: url(../images/icons/list-style.png);
+}
+.my-failure-desc{
+    padding: 20px 0px 20px 0px;
 }
 
 /* footer styles */
