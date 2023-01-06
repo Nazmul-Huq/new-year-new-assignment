@@ -3,21 +3,23 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.brown-btn{
+.txt-white{
+    color: #fff;
+}
+.bg-white{
+    background-color: #fff;
+}
+.txt-brown{
+    color: #FD6E0A;
+}
+.bg-brown{
     background-color: #FD6E0A;
-    border: 0;
-    border-radius: 5px;
-    padding: 10px 15px;
-    color: white;
-    font-size: large;
 }
 
-.white-btn{
-    background-color: #fff;
+.btn{
     border: 0;
     border-radius: 5px;
     padding: 10px 15px;
-    color: #FD6E0A;
     font-size: large;
 }
 
@@ -76,6 +78,39 @@ main{
 .title-div{
     font-weight: bold;
     padding: 10px 0px 10px 0px;
+}
+
+
+/* positive mind section */
+.positive-mind{
+    background-image:
+    linear-gradient(to bottom, rgba(253, 110, 10, 0.73), rgba(250, 146, 71, 0.40)),
+    url('../images/watch.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 30px 40px;
+}
+.positive-mind-btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* positive thinking exercise */
+.positive-thinking-exercise{
+    margin-top: 30px;
+}
+.positive-thinking-exercise h1{
+    margin: 0 auto;
+    padding: 10px;
+}
+table{
+    margin: 0 auto;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 20px 5px 20px;
 }
 
 /* footer styles */
